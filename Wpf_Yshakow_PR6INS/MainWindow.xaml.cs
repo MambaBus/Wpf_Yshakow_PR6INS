@@ -51,11 +51,12 @@ namespace Wpf_Yshakow_PR6INS
                 MessageBox.Show("Неверный логин");
             }
 
-            else if (login1 == a && password1 == p)
+            else if (login1 == a && password1 == b)
             {
                 Window1 window1 = new Window1();
                 window1.Show();
-                mainWind.Close();
+                win1.Close();
             }
+        }
     }
 }

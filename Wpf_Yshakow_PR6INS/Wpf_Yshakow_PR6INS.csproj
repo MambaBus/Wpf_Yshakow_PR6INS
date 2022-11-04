@@ -104,5 +104,11 @@
   <ItemGroup>
     <Resource Include="1624023724_22-phonoteka_org-p-kosmos-oboi-krasivo-23.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="L7UdSGp1U_Z3HOFz0bp2UGyChzgY9qVQmKvdzvT2K_LYBWekXWBz1qLrf3HNW7K9L94rusqOTxB5NKZ1JDBK4ArK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fJSTlatnP-wF9zisbhbq_XZnzWZoARzSe6xUdKbgxvBb_hVjZMG4XMv3hUMZO8eUbEa6Msw8A3N4PfYIj2Eq8IK1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
