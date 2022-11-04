@@ -24,5 +24,38 @@ namespace Wpf_Yshakow_PR6INS
         {
             InitializeComponent();
         }
+        string login1;
+        string password1;
+        string a = "admin";
+        string b = "admin";
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            login1 = login.Text;
+            password1 = password.Text;
+
+
+
+            if (login1 != a && password1 != b)
+            {
+                MessageBox.Show("Неверные логин и пароль");
+            }
+
+            else if (password1 != b)
+            {
+                MessageBox.Show("Неверный пароль");
+            }
+
+            else if (login1 != a)
+            {
+                MessageBox.Show("Неверный логин");
+            }
+
+            else if (login1 == a && password1 == p)
+            {
+                Window1 window1 = new Window1();
+                window1.Show();
+                mainWind.Close();
+            }
     }
 }

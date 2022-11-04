@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Yshakow_PR6INS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="250" Width="400">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="1624023724_22-phonoteka_org-p-kosmos-oboi-krasivo-23.jpg"/>
+        </Grid.Background>
+        <TextBlock  HorizontalAlignment="Left" Margin="30,31,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White">Введите логин</TextBlock>
+        <TextBlock  HorizontalAlignment="Left" Margin="30,82,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White">Введите пароль</TextBlock>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="25" Margin="166,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="186" BorderBrush="Black"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Height="25" Margin="166,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="186" BorderBrush="Black"/>
+        <Button x:Name="button1" Content="Войти" HorizontalAlignment="Left" Margin="156,137,0,0" VerticalAlignment="Top" Width="76" Click="button1_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF910584" Offset="0"/>
+                    <GradientStop Color="#FFFF09E9" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
